@@ -8,7 +8,7 @@ var rate = [
     [30000001,Infinity,25],
 ]; //အခွန်အကောက်ဉပဒေပုဒ်မ ၁၉(ဂ)
 
-var income = 2000000000000; //taxable income
+var income = 20000000; //taxable income
 var totaltax = 0;
 
 
