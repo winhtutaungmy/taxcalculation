@@ -1,5 +1,4 @@
 var rate = [
-    [0,0,0],
     [1,2000000,0],
     [2000001,5000000,5],
     [5000001,10000000,10],
@@ -12,7 +11,7 @@ var income = 20000000; //taxable income
 var totaltax = 0;
 
 
-for (let i = 1; i < rate.length; i++) {
+for (let i = 0; i < rate.length; i++) {
 
 
 var taxable = rate[i][1]-rate[i][0]+1;
